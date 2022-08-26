@@ -3,7 +3,7 @@
     <?= (isset($message)) ? "<p>$message</p>" : "" ?>
     <div>
         <label for="mail">Adresse mail</label>
-        <input type="mail" name="email" id="email" required> <!-- jksdnfkndjsdjknfjknsdfjknfsdjknksdfjknsdfnsdfjnsdf -->
+        <input type="mail" name="email" id="email" required> 
     </div>
     <div>
         <label for="password">Mot de passe</label>

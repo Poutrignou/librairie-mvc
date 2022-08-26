@@ -29,14 +29,9 @@
     require_once 'Controllers/Controller.php';
     require_once 'Models/Model.php';
     require_once 'Utils/Header4.php';
-    
-    //Plop test git
-     //Plop test git
 
     $controllers=["log"];
     $controller_defaut="log";
-
-    //$_GET : c'est elle qui vous donne les valeurs des informations indiquées dans l'url.
 
     if (isset($_GET['controller']) and in_array($_GET['controller'],$controllers)) {
 
