@@ -80,7 +80,7 @@ class Controller_Log extends Controller
     private function userConnexion($user) 
     {
         $data = ['user' => $user];
-        $_session['rank'] = $user->rank;
+        $_SESSION['rank'] = $user->rank;
         if($user->rank == 1) 
         {
             $this->render("welcome_user",$data);
